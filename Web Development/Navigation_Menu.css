@@ -1,0 +1,35 @@
+.navbar{
+    background-color: darkgrey;
+    font-size:20px;
+    border-radius: 4px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none; /*list er surute kono symbol asbena jemon circle/one.two/roman */
+    margin:13px 20px;
+}
+.navbar ul{
+    overflow: auto; /*background thik thakbe,main page er sathe overflow hobena*/
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color: black;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    /* background-color:dimgrey; */
+    color: white; /*hyperlink er upor cursor neyar por seta white color hoye jabe*/
+}
+.search{
+    float:right;
+    padding:12px 75px;
+}
+
+.navbar input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:4px 10px;
+    width: 170px;
+}

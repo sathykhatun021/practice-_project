@@ -1,0 +1,14 @@
+.box{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    background-color: beige;
+    display: inline-block;
+}
+#box3{
+    /* position:relative mane holo seta normal position theke tar position top/bottom/left/right change korbe */
+    position: relative;
+    top: 34px;
+
+}

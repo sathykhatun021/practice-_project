@@ -1,0 +1,27 @@
+.box{
+    height: 170px;
+    width: 170px;
+    border: 2px solid black;
+}
+
+#box1{
+    background-color: aqua;
+    position: relative ;
+    top: 49px;
+    z-index: 35;
+}
+
+#box2{
+    background-color: blanchedalmond;
+    /* visibility: hidden; //will hide the element but show empty space. */
+    /* display: none; /will hide the element but dont show empty space. */
+
+    /* z-index is only work for position relative, absoulate, fixed, sticky */
+    position: relative;
+    top: 14px;
+    z-index: 34;
+
+}
+#box3{
+    background-color: blueviolet;
+}

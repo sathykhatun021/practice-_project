@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and input tags</title>
+</head>
+
+<body>
+    <h2>This is HTML form</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+
+        <div>
+            <label for="roll">Roll</label>
+            <input type="text" name="myRoll" id="roll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myNumber">
+        </div>
+        <br>
+        <div>
+            <label for="are you eligible">Are you eligible?</label>
+            <input type="checkbox" name="myEligibility" id="are you eligible">
+        </div>
+        <br>
+        <div>
+            Color: <input type="color" name="myColor">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Gender: <br> Male <input type="radio" name="myGender"> <br> Female <input type="radio" name="myGender"> <br>
+            Others <input type="radio" name="myGender">
+        </div>
+        <br>
+
+        <!-- Option -->
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write something <br><textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Submit now">
+        <input type="reset" value="Reset now">
+    </form>
+</body>
+
+</html>

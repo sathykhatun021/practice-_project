@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 3px solid red;
+            background-color: rgb(173, 248, 190);
+            padding: 34px;
+            margin: 34px auto;
+            width: 700px;
+        }
+        /*for remove hyperlink underline*/
+        a{
+            text-decoration: none; 
+            color:black;
+        }
+
+        /*link er modde cursor neyar pore color change hoye jabe hover er maddome*/
+        a:hover{
+            color: rgb(237, 107, 107); /*link er modde cursor neyar pore color change hoye jabe*/
+            background-color:cornsilk;
+            border: 2px solid black;
+        }
+        .btn:hover{
+            color: rgb(237, 107, 107);
+            background-color:cornsilk;
+            border:2px solid black;
+        }
+
+        /*link visit hobar por color change hobe*/
+        a:visited{
+            background-color:rgb(174, 174, 215);
+        }
+        
+        .btn{
+            border: none;
+            background-color: rgb(234, 198, 152);
+            padding: 5px;
+            font-size: 15px;
+            border-radius: 4px;
+            cursor: pointer; /*for sursor consistance*/
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont1" class="container">
+        <h3>This is Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo unde cupiditate maiores tempora rerum iste animi quasi nostrum! Inventore dolores dicta placeat repudiandae? Nihil aspernatur illum quam sapiente deserunt nemo facilis perspiciatis quia? Similique?</p>
+
+        <a href="https://google.com" target="_blank" class="btn">Read more</a>
+        <button class="btn">Conact us</button>
+    </div>
+</body>
+</html>
